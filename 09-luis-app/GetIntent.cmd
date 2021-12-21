@@ -10,4 +10,4 @@ set input=%1
 set query=%input: =+%
 
 rem Use cURL to call the REST API
-curl -X GET "%endpoint%/luis/prediction/v3.0/apps/%app_id%/slots/production/predict?subscription-key=%key%&log=true&query=%query%"
+curl -X GET "%endpoint%/luis/prediction/v3.0/apps/%app_id%/slots/production/predict?subscription-key=
